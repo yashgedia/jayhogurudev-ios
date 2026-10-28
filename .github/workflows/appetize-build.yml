@@ -34,8 +34,8 @@ jobs:
       - name: Compress .app for Appetize.io
         run: |
           cd build/Build/Products/Debug-iphonesimulator
-          zip -r ../../../JayHoGurudev-Appetize.zip JayHoGurudev.app
-          cd ../../..
+          zip -r "$GITHUB_WORKSPACE/JayHoGurudev-Appetize.zip" JayHoGurudev.app
+          ls -lh "$GITHUB_WORKSPACE/JayHoGurudev-Appetize.zip"
 
       - name: Upload Appetize.io Ready Zip
         uses: actions/upload-artifact@v4
