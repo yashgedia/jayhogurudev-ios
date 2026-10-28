@@ -27,10 +27,6 @@ public class SpiritualAudioManager: ObservableObject {
         setupRemoteCommandCenter()
     }
     
-    deinit {
-        removeTimeObserver()
-    }
-    
     private func configureAudioSession() {
         do {
             let session = AVAudioSession.sharedInstance()
