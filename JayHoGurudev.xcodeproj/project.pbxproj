@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10100012900000100000001 /* JayHoGurudevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200012900000100000001 /* JayHoGurudevApp.swift */; };
+		A10100022900000100000002 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200022900000100000002 /* AppConfig.swift */; };
+		A10100032900000100000003 /* SpiritualTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200032900000100000003 /* SpiritualTheme.swift */; };
+		A10100042900000100000004 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200042900000100000004 /* Models.swift */; };
+		A10100052900000100000005 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200052900000100000005 /* APIService.swift */; };
+		A10100062900000100000006 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200062900000100000006 /* AuthManager.swift */; };
+		A10100072900000100000007 /* SpiritualAudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200072900000100000007 /* SpiritualAudioManager.swift */; };
+		A10100082900000100000008 /* MeditationAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200082900000100000008 /* MeditationAudioService.swift */; };
+		A10100092900000100000009 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200092900000100000009 /* HapticManager.swift */; };
+		A101000A290000010000000A /* BroadcastPoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102000A290000010000000A /* BroadcastPoller.swift */; };
+		A101000B290000010000000B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102000B290000010000000B /* SplashView.swift */; };
+		A101000C290000010000000C /* PolicyViewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102000C290000010000000C /* PolicyViewSheet.swift */; };
+		A101000D290000010000000D /* UsernamePromptSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102000D290000010000000D /* UsernamePromptSheet.swift */; };
+		A101000E290000010000000E /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102000E290000010000000E /* AuthView.swift */; };
+		A101000F290000010000000F /* MiniPlayerBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102000F290000010000000F /* MiniPlayerBarView.swift */; };
+		A10100102900000100000010 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200102900000100000010 /* MainTabView.swift */; };
+		A10100112900000100000011 /* FullPlayerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200112900000100000011 /* FullPlayerSheet.swift */; };
+		A10100122900000100000012 /* BhajansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200122900000100000012 /* BhajansView.swift */; };
+		A10100132900000100000013 /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200132900000100000013 /* MeditationView.swift */; };
+		A10100142900000100000014 /* DarshanViewerModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200142900000100000014 /* DarshanViewerModal.swift */; };
+		A10100152900000100000015 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200152900000100000015 /* GalleryView.swift */; };
+		A10100162900000100000016 /* NoticesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200162900000100000016 /* NoticesSheet.swift */; };
+		A10100172900000100000017 /* SaakhiBookSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200172900000100000017 /* SaakhiBookSheet.swift */; };
+		A10100182900000100000018 /* SaakhiShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200182900000100000018 /* SaakhiShareCardView.swift */; };
+		A10100192900000100000019 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10200192900000100000019 /* HomeView.swift */; };
+		A101001A290000010000001A /* CommentsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102001A290000010000001A /* CommentsSheet.swift */; };
+		A101001B290000010000001B /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102001B290000010000001B /* FeedView.swift */; };
+		A101001C290000010000001C /* JapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102001C290000010000001C /* JapView.swift */; };
+		A101001D290000010000001D /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102001D290000010000001D /* EventsView.swift */; };
+		A101001E290000010000001E /* ChangePasswordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102001E290000010000001E /* ChangePasswordSheet.swift */; };
+		A101001F290000010000001F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102001F290000010000001F /* ProfileView.swift */; };
+		A10100202900000100000020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10200202900000100000020 /* Assets.xcassets */; };
+		A10100212900000100000021 /* splashscreen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A10200212900000100000021 /* splashscreen.mp4 */; };
+		A10100222900000100000022 /* om_chant.wav in Resources */ = {isa = PBXBuildFile; fileRef = A10200222900000100000022 /* om_chant.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10200002900000100000000 /* JayHoGurudev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JayHoGurudev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10200012900000100000001 /* JayHoGurudevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayHoGurudevApp.swift; sourceTree = "<group>"; };
+		A10200022900000100000002 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		A10200032900000100000003 /* SpiritualTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualTheme.swift; sourceTree = "<group>"; };
+		A10200042900000100000004 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A10200052900000100000005 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A10200062900000100000006 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		A10200072900000100000007 /* SpiritualAudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualAudioManager.swift; sourceTree = "<group>"; };
+		A10200082900000100000008 /* MeditationAudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationAudioService.swift; sourceTree = "<group>"; };
+		A10200092900000100000009 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		A102000A290000010000000A /* BroadcastPoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastPoller.swift; sourceTree = "<group>"; };
+		A102000B290000010000000B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A102000C290000010000000C /* PolicyViewSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyViewSheet.swift; sourceTree = "<group>"; };
+		A102000D290000010000000D /* UsernamePromptSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernamePromptSheet.swift; sourceTree = "<group>"; };
+		A102000E290000010000000E /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		A102000F290000010000000F /* MiniPlayerBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerBarView.swift; sourceTree = "<group>"; };
+		A10200102900000100000010 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A10200112900000100000011 /* FullPlayerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPlayerSheet.swift; sourceTree = "<group>"; };
+		A10200122900000100000012 /* BhajansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhajansView.swift; sourceTree = "<group>"; };
+		A10200132900000100000013 /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		A10200142900000100000014 /* DarshanViewerModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarshanViewerModal.swift; sourceTree = "<group>"; };
+		A10200152900000100000015 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		A10200162900000100000016 /* NoticesSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticesSheet.swift; sourceTree = "<group>"; };
+		A10200172900000100000017 /* SaakhiBookSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaakhiBookSheet.swift; sourceTree = "<group>"; };
+		A10200182900000100000018 /* SaakhiShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaakhiShareCardView.swift; sourceTree = "<group>"; };
+		A10200192900000100000019 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A102001A290000010000001A /* CommentsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsSheet.swift; sourceTree = "<group>"; };
+		A102001B290000010000001B /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		A102001C290000010000001C /* JapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapView.swift; sourceTree = "<group>"; };
+		A102001D290000010000001D /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		A102001E290000010000001E /* ChangePasswordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordSheet.swift; sourceTree = "<group>"; };
+		A102001F290000010000001F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A10200202900000100000020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10200212900000100000021 /* splashscreen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = "video.mp4"; path = splashscreen.mp4; sourceTree = "<group>"; };
+		A10200222900000100000022 /* om_chant.wav */ = {isa = PBXFileReference; lastKnownFileType = "audio.wav"; path = om_chant.wav; sourceTree = "<group>"; };
+		A10200232900000100000023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10300012900000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10400002900000100000000 = {
+			isa = PBXGroup;
+			children = (
+				A10400012900000100000001 /* JayHoGurudev */,
+				A10400092900000100000009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10400012900000100000001 /* JayHoGurudev */ = {
+			isa = PBXGroup;
+			children = (
+				A10200012900000100000001 /* JayHoGurudevApp.swift */,
+				A10400022900000100000002 /* Config */,
+				A10400032900000100000003 /* Theme */,
+				A10400042900000100000004 /* Models */,
+				A10400052900000100000005 /* Services */,
+				A10400062900000100000006 /* Views */,
+				A10400072900000100000007 /* Resources */,
+				A10200202900000100000020 /* Assets.xcassets */,
+				A10200232900000100000023 /* Info.plist */,
+			);
+			path = JayHoGurudev;
+			sourceTree = "<group>";
+		};
+		A10400022900000100000002 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A10200022900000100000002 /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A10400032900000100000003 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A10200032900000100000003 /* SpiritualTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A10400042900000100000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A10200042900000100000004 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A10400052900000100000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A10200052900000100000005 /* APIService.swift */,
+				A10200062900000100000006 /* AuthManager.swift */,
+				A10200072900000100000007 /* SpiritualAudioManager.swift */,
+				A10200082900000100000008 /* MeditationAudioService.swift */,
+				A10200092900000100000009 /* HapticManager.swift */,
+				A102000A290000010000000A /* BroadcastPoller.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A10400062900000100000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A102000B290000010000000B /* SplashView.swift */,
+				A102000C290000010000000C /* PolicyViewSheet.swift */,
+				A102000D290000010000000D /* UsernamePromptSheet.swift */,
+				A102000E290000010000000E /* AuthView.swift */,
+				A102000F290000010000000F /* MiniPlayerBarView.swift */,
+				A10200102900000100000010 /* MainTabView.swift */,
+				A10200112900000100000011 /* FullPlayerSheet.swift */,
+				A10200122900000100000012 /* BhajansView.swift */,
+				A10200132900000100000013 /* MeditationView.swift */,
+				A10200142900000100000014 /* DarshanViewerModal.swift */,
+				A10200152900000100000015 /* GalleryView.swift */,
+				A10200162900000100000016 /* NoticesSheet.swift */,
+				A10200172900000100000017 /* SaakhiBookSheet.swift */,
+				A10200182900000100000018 /* SaakhiShareCardView.swift */,
+				A10200192900000100000019 /* HomeView.swift */,
+				A102001A290000010000001A /* CommentsSheet.swift */,
+				A102001B290000010000001B /* FeedView.swift */,
+				A102001C290000010000001C /* JapView.swift */,
+				A102001D290000010000001D /* EventsView.swift */,
+				A102001E290000010000001E /* ChangePasswordSheet.swift */,
+				A102001F290000010000001F /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A10400072900000100000007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A10200212900000100000021 /* splashscreen.mp4 */,
+				A10200222900000100000022 /* om_chant.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A10400092900000100000009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10200002900000100000000 /* JayHoGurudev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10500012900000100000001 /* JayHoGurudev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10600022900000100000002 /* Build configuration list for PBXNativeTarget "JayHoGurudev" */;
+			buildPhases = (
+				A10700012900000100000001 /* Sources */,
+				A10300012900000100000001 /* Frameworks */,
+				A10800012900000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JayHoGurudev;
+			productName = JayHoGurudev;
+			productReference = A10200002900000100000000 /* JayHoGurudev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10900012900000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A10500012900000100000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A10600012900000100000001 /* Build configuration list for PBXProject "JayHoGurudev" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10400002900000100000000;
+			productRefGroup = A10400092900000100000009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10500012900000100000001 /* JayHoGurudev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10800012900000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10100202900000100000020 /* Assets.xcassets in Resources */,
+				A10100212900000100000021 /* splashscreen.mp4 in Resources */,
+				A10100222900000100000022 /* om_chant.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10700012900000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10100012900000100000001 /* JayHoGurudevApp.swift in Sources */,
+				A10100022900000100000002 /* AppConfig.swift in Sources */,
+				A10100032900000100000003 /* SpiritualTheme.swift in Sources */,
+				A10100042900000100000004 /* Models.swift in Sources */,
+				A10100052900000100000005 /* APIService.swift in Sources */,
+				A10100062900000100000006 /* AuthManager.swift in Sources */,
+				A10100072900000100000007 /* SpiritualAudioManager.swift in Sources */,
+				A10100082900000100000008 /* MeditationAudioService.swift in Sources */,
+				A10100092900000100000009 /* HapticManager.swift in Sources */,
+				A101000A290000010000000A /* BroadcastPoller.swift in Sources */,
+				A101000B290000010000000B /* SplashView.swift in Sources */,
+				A101000C290000010000000C /* PolicyViewSheet.swift in Sources */,
+				A101000D290000010000000D /* UsernamePromptSheet.swift in Sources */,
+				A101000E290000010000000E /* AuthView.swift in Sources */,
+				A101000F290000010000000F /* MiniPlayerBarView.swift in Sources */,
+				A10100102900000100000010 /* MainTabView.swift in Sources */,
+				A10100112900000100000011 /* FullPlayerSheet.swift in Sources */,
+				A10100122900000100000012 /* BhajansView.swift in Sources */,
+				A10100132900000100000013 /* MeditationView.swift in Sources */,
+				A10100142900000100000014 /* DarshanViewerModal.swift in Sources */,
+				A10100152900000100000015 /* GalleryView.swift in Sources */,
+				A10100162900000100000016 /* NoticesSheet.swift in Sources */,
+				A10100172900000100000017 /* SaakhiBookSheet.swift in Sources */,
+				A10100182900000100000018 /* SaakhiShareCardView.swift in Sources */,
+				A10100192900000100000019 /* HomeView.swift in Sources */,
+				A101001A290000010000001A /* CommentsSheet.swift in Sources */,
+				A101001B290000010000001B /* FeedView.swift in Sources */,
+				A101001C290000010000001C /* JapView.swift in Sources */,
+				A101001D290000010000001D /* EventsView.swift in Sources */,
+				A101001E290000010000001E /* ChangePasswordSheet.swift in Sources */,
+				A101001F290000010000001F /* ProfileView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10A00012900000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10A00022900000100000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10A00032900000100000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = JayHoGurudev/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jay Ho Gurudev";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayhogurudev.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10A00042900000100000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = JayHoGurudev/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jay Ho Gurudev";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayhogurudev.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10600012900000100000001 /* Build configuration list for PBXProject "JayHoGurudev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10A00012900000100000001 /* Debug */,
+				A10A00022900000100000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10600022900000100000002 /* Build configuration list for PBXNativeTarget "JayHoGurudev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10A00032900000100000003 /* Debug */,
+				A10A00042900000100000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10900012900000100000001 /* Project object */;
+}

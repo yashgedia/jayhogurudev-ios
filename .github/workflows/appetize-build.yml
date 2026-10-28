@@ -1,0 +1,45 @@
+name: Appetize.io iOS Simulator Build
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-simulator:
+    name: Build for Appetize.io
+    runs-on: macos-14
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Select Xcode 15
+        run: sudo xcode-select -s /Applications/Xcode_15.4.app/Contents/Developer
+
+      - name: Build for iOS Simulator (ARM64 & x86_64)
+        run: |
+          cd ios-app
+          xcodebuild clean build \
+            -project JayHoGurudev.xcodeproj \
+            -scheme JayHoGurudev \
+            -sdk iphonesimulator \
+            -configuration Debug \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY=""
+
+      - name: Compress .app for Appetize.io
+        run: |
+          cd ios-app/build/Build/Products/Debug-iphonesimulator
+          zip -r ../../../../JayHoGurudev-Appetize.zip JayHoGurudev.app
+          cd ../../../..
+
+      - name: Upload Appetize.io Ready Zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: JayHoGurudev-Appetize-Simulator-Build
+          path: JayHoGurudev-Appetize.zip
