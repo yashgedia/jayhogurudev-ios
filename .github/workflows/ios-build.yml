@@ -26,7 +26,6 @@ jobs:
 
       - name: Build JayHoGurudev for iOS Simulator
         run: |
-          cd ios-app
           xcodebuild clean build \
             -project JayHoGurudev.xcodeproj \
             -scheme JayHoGurudev \
@@ -37,7 +36,6 @@ jobs:
 
       - name: Build Generic iOS Device Archive (Release)
         run: |
-          cd ios-app
           xcodebuild archive \
             -project JayHoGurudev.xcodeproj \
             -scheme JayHoGurudev \
@@ -49,7 +47,6 @@ jobs:
 
       - name: Package .ipa Binary for Direct Sideloading
         run: |
-          cd ios-app
           mkdir -p build/Payload
           cp -r build/JayHoGurudev.xcarchive/Products/Applications/JayHoGurudev.app build/Payload/
           cd build
@@ -60,10 +57,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: JayHoGurudev-iOS-App-IPA
-          path: ios-app/build/JayHoGurudev.ipa
+          path: build/JayHoGurudev.ipa
 
       - name: Upload Full Xcode Archive
         uses: actions/upload-artifact@v4
         with:
           name: JayHoGurudev-iOS-Archive
-          path: ios-app/build/JayHoGurudev.xcarchive
+          path: build/JayHoGurudev.xcarchive

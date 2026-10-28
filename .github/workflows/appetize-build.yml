@@ -21,7 +21,6 @@ jobs:
 
       - name: Build for iOS Simulator (ARM64 & x86_64)
         run: |
-          cd ios-app
           xcodebuild clean build \
             -project JayHoGurudev.xcodeproj \
             -scheme JayHoGurudev \
@@ -34,9 +33,9 @@ jobs:
 
       - name: Compress .app for Appetize.io
         run: |
-          cd ios-app/build/Build/Products/Debug-iphonesimulator
-          zip -r ../../../../JayHoGurudev-Appetize.zip JayHoGurudev.app
-          cd ../../../..
+          cd build/Build/Products/Debug-iphonesimulator
+          zip -r ../../../JayHoGurudev-Appetize.zip JayHoGurudev.app
+          cd ../../..
 
       - name: Upload Appetize.io Ready Zip
         uses: actions/upload-artifact@v4
